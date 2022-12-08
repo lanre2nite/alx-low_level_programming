@@ -7,7 +7,7 @@
  * Return: Always 0 (Success)
  */
 
-int main (void) /* main function*/
+int main(void) /* main function*/
 {
 	  int i;
 	 long int ii;
@@ -19,5 +19,5 @@ int main (void) /* main function*/
 		      printf("Size of a long int:%lu byte(s)\n", sizeof(ii));
 		        printf("Size of a long long int: %lu bytes(s)\n",sizeof(iii));
 			  printf("Size of a float:%lu byte(s)\n", sizeof(f));
-	    return (0);
+	    return(0);
 }
