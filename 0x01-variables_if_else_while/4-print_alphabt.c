@@ -1,22 +1,21 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
-*main- A c program to print alphabetic letters except letter q and e
-*
-*retun: always (0)
+*main-A c program to print alphabetic letters except letter q and e
+*Return:always (0)
 */
-int main(void)
+int main(void) /*the main function*/
 {
-	int letter;
+int letter; /* variable name "letter" decleration*/
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-	{
-		if (letter == 'q' || letter == 'e')
-		{
-			continue;
-		}
-		putchar(letter);
-		}
-		putchar('\n');
-		return (0);
+for (letter = 'a'; letter <= 'z'; letter++)
+{
+if (letter == 'q' || letter == 'e')
+{
+continue;
+}
+putchar(letter);
+}
+putchar('\n');
+return (0); /*Always return 0 */
 }
