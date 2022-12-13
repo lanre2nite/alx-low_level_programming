@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-*main - A c program that prints the alphabets a-z 10 times
+*print_alphabet_x10 - A c program that prints the alphabets a-z 10 times
 *Return: Always 0
 */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int count = 0;
 	int letter;
