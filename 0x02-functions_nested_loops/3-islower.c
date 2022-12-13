@@ -1,6 +1,7 @@
 #include "main.h"
 /**
-* _islower - the main code
+*_islower - the main code
+*@c: character to be verified
 *Return: Always 0
 */
 int _islower(int c)
