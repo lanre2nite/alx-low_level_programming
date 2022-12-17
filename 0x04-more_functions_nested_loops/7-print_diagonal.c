@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_diagonal - draws adiagonal line on the terminal
- * @n: number of times the character \ should be printed
- */
+*print_diagonal - draws adiagonal line on the terminal
+* @n: number of times the character \ should be printed
+*/
 void print_diagonal(int n)
 {
 	if (n <= 0)
