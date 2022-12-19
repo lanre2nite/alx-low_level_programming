@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *main - entry point generates a random password
+*main - entry point generates a random password
 *Return: the generated password
 */
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 	srand(time(0));
 	while (x <= 2645)
 	{
-		c = rand(0 % 128;
+		c = rand() % 128;
 				x += c;
 				putchar(c);
 				}
