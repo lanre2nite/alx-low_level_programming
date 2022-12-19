@@ -1,13 +1,15 @@
 #include "main.h"
+
 /**
-*_puts - prints a string
-*@str : string to be print
+*_puts- fucntions of a string to be execute
+* @str: string to be print
 *Description: prints a string
-*On success: return the number of characters
 */
 void _puts(char *str)
 {
-	while (*str)
-		_putchar(*str++);
-	_putchar('\n');
+while (*str != '\0')
+{
+_putchar(*str++);
+}
+_putchar('\n');
 }
