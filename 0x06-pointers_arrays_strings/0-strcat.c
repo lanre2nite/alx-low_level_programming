@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strcat - the string pointed to by @src
+ *_strcat - the string pointed to by @src
  * @dest: string that will be appended
  * @src: strng to be concatenated upom
- * REturn: reutnrs pointer to @dest
+ * Return: reutnrs pointer to @dest
  */
 char *_strcat(char *dest, char *src)
 {
