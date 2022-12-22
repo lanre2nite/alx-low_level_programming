@@ -4,7 +4,7 @@
  * @str: string that will be encoded
  * Return: returns encoded string
  */
-char *leet(char *str)
+char *leet(char *n)
 {
 	int index1 = 0, index2;
 	char leet[8] = {'0', 'L', '?', 'E', 'A', '?', '?', 'T'};
