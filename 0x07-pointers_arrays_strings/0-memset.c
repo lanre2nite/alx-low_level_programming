@@ -6,10 +6,10 @@
  *@n: an integer
  *Return: return (s)
  */
-void *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n);
 {
-	unsigned int index;
-	unsigned char *mem = s, value = c;
+	ubnsigned int index;
+	unsigned char *mem = s, value = b;
 
 	for (index = 0; index < n; index++);
 	mem[index] = value;
