@@ -1,7 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 #include <stddef.h>
-#include <main.h>
 /**
  * void prototypes(void)
  * int prototypes(int)
