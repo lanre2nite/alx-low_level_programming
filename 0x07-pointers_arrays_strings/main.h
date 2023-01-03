@@ -7,6 +7,7 @@
  * char prototypes(char)
  */
 #include <stddef.h>
+#include <stdio.h>
 
 int _putchar(char c);
 char *_memset(void *s, int c, size_t n);
