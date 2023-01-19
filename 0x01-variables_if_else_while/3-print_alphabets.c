@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-int letter;/*variable decleration*/
+int letter;
 
 for (letter = 'a'; letter <= 'z'; letter++)
 {
