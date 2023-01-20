@@ -1,4 +1,5 @@
 #include "variadic_functions.h"
+#include <stdarg.h>
 /**
  * print_numbers - prints numbers, followed by a new line
  * @separator: the string to be printed btw numbers
