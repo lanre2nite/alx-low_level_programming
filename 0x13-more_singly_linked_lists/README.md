@@ -1,0 +1,5 @@
+/* README.md file*/
+ALX SOFTWARE PROGRAMMING
+COHORT: 11
+TOPIC/PROJECT: 0x13. C - More singly linked lists
+DATE: 30/01/2023
