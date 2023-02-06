@@ -13,9 +13,9 @@ void close_file(int fd);
  */
 char *create_buffer(char *file)
 {
-	char *buffer;
+char *buffer;
 
-	buffer = malloc(sizeof(char) * 1024);
+buffer = malloc(sizeof(char) * 1024);
 	if (buffer == NULL)
 	{
 		dprintf(STDERR_FILENO,
